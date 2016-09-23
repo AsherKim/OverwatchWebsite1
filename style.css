@@ -1,0 +1,109 @@
+
+h1 {
+        color:SpringGreen;
+  }
+   p{
+       color:PeachPuff;
+    }
+   
+ 
+
+<!DOCTYPE HTML>
+<html>
+  <head>
+<style>
+  body {
+        background-image: url("Black.jpg");
+  }
+  </style>
+    <link rel="stylesheet" type= "text/css" href="style.css">
+
+  </head>
+
+<body>
+    <!-- Begin NAvagation COde--> 
+   <ul id="NavBar">
+   
+   <li class="NavItem"><a class="Active" href="index.html">Overview</a></li>
+   <li class="NavItem"><a href="Characters.html">Characters</a></li>
+   <li class="NavItem"><a href="Maps.html">Maps</a></li>
+   <li class="NavItem"><a href="Game Modes.html">Game Modes</a></li>
+  
+   </ul>
+   
+    <!-- End Navagation Code-->
+   
+   
+    <div id=main>
+    
+<h1>OverWatch</h1>
+
+  <p>     Overwatch is a team based game with two teams fighting each other to win the objective 
+   or game. There are 22 pickable characters and 13 different maps in the world of Overwatch.
+   There are 5 different gamemodes in Overwatch, Quick Play, Competitive, Co-op vs. AI, Custom,
+   and a weekly rotational fun game modes. This game was made by the gaming company Blizzard Entertainment,
+   they also made famous games such as Hearthstone and Starcraft. The price of this game is 60 dollars on the console 
+   and you get free skins but not worth. See on the GRAND PC MASTER RACE you can get it for 40 dollars or 60 if your rich.
+   
+</p>
+<p> OUR USERNAMES: Sunsee PC The_Boys_For_Fun PS4
+</p>
+<p> 
+<img src="DVA .gif">
+</p>
+</div>
+</body>
+
+
+
+</html>   body {
+        margin : 0;
+    }
+    
+    #NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+    /*border: 1px solid blue;*/
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    }
+   
+
+   .NavItem{
+   text-align:center;
+   
+   display: inline;
+   float: left;
+   }
+
+.NavItem:last-child {
+   border-bottom: none;
+}
+
+
+.NavItem a {
+    display: block;
+    color:black;
+    text-decoration : none ;
+    padding : 8px 16px
+}
+
+
+.NavItem a:hover:not(.Active) {
+color:Crimson;
+background-color:SpringGreen;
+     /*changes background and text*/
+}
+
+.NavItem a.Active{
+     background-color: DarkViolet;
+     color: white;
+     }
+     
+#main {
+margin-top: 10px;
+padding: 25px
